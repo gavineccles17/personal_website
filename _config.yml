@@ -8,8 +8,7 @@ name: "Gavin Eccles"
 description: "Gavin Eccles, running fanatic, aspiring photographer, tech lover and a zest for life."
 url: https://www.gavineccles.com
 words_per_minute: 200
-theme: "minimal-mistakes-jekyll"
-
+remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 # Comment hosting from Disqus
 #comments:
 #  provider: "disqus"

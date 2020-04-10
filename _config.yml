@@ -26,7 +26,7 @@ reCaptcha:
   secret: #"kJLDgpPcAPTcXPRne5EVo43urCYOrzrIx6GGoQnHKfTsSQ0l91oH6Bv1HqjJ+lmej1KfvbSIfDZ4T1NgOUYAJ6CBJtftmyQRuC7jYZtlXa+IADCc6NMIAkaiJIh9tlGdfVXpTXa92jfx5v2vUmJ5C35ZY8rhrY7OiJMDRlEzB5U="
 
 # Site search from Algolia
-search: #true
+search: true
 search_provider: #"algolia"
 algolia:
   application_id: #5XQCQN167D
@@ -70,17 +70,46 @@ social:
 # Site author
 author:
   name: "Gavin Eccles"
-  avatar: "/assets/images/profile.jpg"
-  bio: "A tech guy writing about running and photography."
+  avatar: "/assets/images/selfie.jpg"
+  bio: "Running fanatic and aspiring photographer with a zest for life."
   location: "Ireland"
   uri: "https://www.gavineccles.com"
-  facebook: "gavin_eccles"
+  facebook: #"gavin_eccles"
   github: "gavineccles17"
   google_plus: #"+AravindIyer"
   medium: #".aravindiyer"
-  instagram: "gavineccles17"
-  linkedin: #"aravindiyer"
+  instagram: gavineccles17
   twitter: #"aravindiyer"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:gavineccles17@gmail.com
+    - label: "Strava"
+      icon: "fab fa-strava"
+      url: "https://www.strava.com/athletes/eccles_gavin"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://ie.linkedin.com/in/gavin-eccles-8469a3150"
+
+# Site Footer
+footer:
+  links:
+    - label: "Strava"
+      icon: "fab fa-strava"
+      url: "https://www.strava.com/athletes/eccles_gavin"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gavineccles17"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/gavineccles17"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://ie.linkedin.com/in/gavin-eccles-8469a3150"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:gavineccles17@gmail.com
+      
 
 # File reading
 include:

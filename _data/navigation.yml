@@ -1,14 +1,18 @@
 # /_data/navigation.yml
 
 main:
+  - title: "About"
+    url: /about/
   - title: "Photography"
     url: /photography/
   - title: "Running"
     url: /running/
   - title: "Blog"
-    url: /blog/
-  - title: "About"
-    url: /about/
+    url: /blog/ 
+  - title: "Resume"
+    url: /assets/docs/gavin_cv.pdf   
+  - title: "Archive"
+    url: /year-archive/
   - title: "Terms of Use"
     url: /terms/
 #  - title: "Line Art"

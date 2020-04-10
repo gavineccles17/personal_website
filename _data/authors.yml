@@ -1,0 +1,14 @@
+# /_data/author.yml
+
+Gavin Eccles:
+    name: "Gavin Eccles"
+    uri: "https://www.gavineccles.com"
+    bio: "A tech guy writing about running and photography."
+    location: "Ireland"
+    avatar: "/assets/images/profile.jpg"
+    #twitter: "aravindiyer"
+    #facebook: "gavin_eccles"
+    #linkedin: "aravindiyer"
+   #medium: ".aravindIyer"
+    instagram: "gavineccles17"
+    github: "gavineccles17"

@@ -1,0 +1,19 @@
+# /_data/navigation.yml
+
+main:
+  - title: "Photography"
+    url: /photography/
+  - title: "Running"
+    url: /running/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+  - title: "Terms of Use"
+    url: /terms/
+#  - title: "Line Art"
+#    url: /line-art/
+#  - title: "From Math to Code"
+#    url: /puzzles/
+#  - title: "Sitemap"
+#    url: /sitemap/

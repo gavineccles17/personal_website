@@ -131,6 +131,8 @@ plugins:
   - jekyll-feed
   - jekyll-algolia
   - jemoji
+  - jekyll-include-cache
+
 
 # Collections - enable a collection for use as drafts
 collections:

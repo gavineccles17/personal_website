@@ -5,7 +5,7 @@ title: About Gavin Eccles
 author: Gavin Eccles
 author_profile: true
 description: "I am Gavin,..............."
-og_image: "/assets/images/gavin4.jpg"
+og_image: "/assets/images/selfie.jpg"
 ---
 
 Hi, my name's gavin. This is a page for me to keep track of things. 

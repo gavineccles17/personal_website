@@ -5,7 +5,8 @@
 
 @import "fontconfig";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+//default is nice, air is cool, aqua no, contrast no,  dark is nice for switch but perhaps blog hard to read in white text, dirt is nice, neon nah, mint nah, plum no, sunrise no
 @import "minimal-mistakes"; // main partials
 
 @import "custom";

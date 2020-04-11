@@ -2,10 +2,8 @@
 layout: single
 title: Terms of Use
 permalink: /terms/
-author: Gavin Eccles
 author_profile: true
 description: "I am Gavin Eccles. These are the terms of use of this website."
-og_image: "/assets/images/selfie.jpg"
 ---
 This is my personal website and I am solely responsible for its content. Your use of this website in any form constitutes an acceptance of the following terms and conditions. This page may be updated from time to time.
 

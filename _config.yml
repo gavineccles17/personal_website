@@ -12,11 +12,9 @@ words_per_minute: 200
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 # Comment hosting from Disqus
 comments:
-  provider: "facebook"
-  facebook:
-    appid: # optional
-    num_posts: # 5 (default)
-    colorscheme: # "light" (default), "dark"
+  provider: "disqus"
+  disqus:
+    shortname: "www-gavineccles-com"
 
     
 breadcrumbs: true  # disabled by default
@@ -61,7 +59,7 @@ twitter:
 facebook:
   username: "gavin.eccles.5"
   app_id: #"2013161692342257"
-og_image: "/assets/images/selfie.jpg"
+#og_image: "/assets/images/selfie.jpg"
 social:
   type: "Person"
   name: "Gavin Eccles"
@@ -76,16 +74,16 @@ social:
 # Site author
 author:
   name: "Gavin Eccles"
-  avatar: "/assets/images/selfie.jpg"
+  avatar: "/assets/images/selfie3.jpg"
   bio: "Running fanatic and aspiring photographer with a zest for life."
   location: "Ireland"
   uri: "https://www.gavineccles.com"
   facebook: "gavin.eccles.5"
   github: "gavineccles17"
-  google_plus: #"+AravindIyer"
-  medium: #".aravindiyer"
+  google_plus:
+  medium: 
   instagram: gavineccles17
-  twitter: #"aravindiyer"
+  twitter: 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

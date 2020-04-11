@@ -2,10 +2,9 @@
 layout: single
 permalink: /contact/
 title: Contact me
-author: Gavin Eccles
 author_profile: true
 description: "I am Gavin,..............."
-og_image: "/assets/images/selfie.jpg"
+comments: true
 ---
 
 # Contact

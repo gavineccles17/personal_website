@@ -1,14 +1,15 @@
 ---
-layout: archive 
-permalink: /photography/
 title: Photography
+permalink: "/photography/"
+layout: archive
 author_profile: false
 sidebar:
-  - image: "/assets/images/photography-cover.jpg"
-description: "This page will show all my photographs as I strive to become a good photographer."
+- image: "/assets/images/photography-cover.jpg"
+description: This page will show all my photographs as I strive to become a good photographer.
 toc: true
 og_image: "/assets/images/land2.jpg"
 ---
+
 This page will show all my photographs as I strive to become a good photographer.
 
 ## Latest stories

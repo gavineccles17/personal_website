@@ -1,9 +1,9 @@
 ---
-layout: single
-permalink: /about/
 title: About Gavin Eccles
+permalink: "/about/"
+layout: single
 author_profile: true
-description: "I am Gavin,..............."
+description: I am Gavin,...............
 comments: true
 ---
 

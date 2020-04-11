@@ -1,11 +1,18 @@
 ---
-layout: single 
-permalink: /photography/background/
 title: Music Naka - Background
+permalink: "/photography/background/"
+layout: single
 author_profile: true
-description: "Music makes its best impression when it is shared by a friend over a story. Music is a medium for communicating and stimulating emotions, for conveying the mood, feelings, state of mind and even the sense of identity of the artist, and of the audience too. The stories on this page aim to help you know more about this context behind the music, so that you can connect more deeply with it. It's good seeing you at Music Naka! If you like a story or if you have one to share, please write to me."
+description: Music makes its best impression when it is shared by a friend over a
+  story. Music is a medium for communicating and stimulating emotions, for conveying
+  the mood, feelings, state of mind and even the sense of identity of the artist,
+  and of the audience too. The stories on this page aim to help you know more about
+  this context behind the music, so that you can connect more deeply with it. It's
+  good seeing you at Music Naka! If you like a story or if you have one to share,
+  please write to me.
 og_image: "/assets/images/photography-cover.jpg"
 ---
+
 Music makes its best impression when it is shared by a friend over a story.
 
 We may find music through many sources - friends, experts, algorithms or serendipity, but we could never have discovered even half the music we know and love, if it weren't for the many friends and countless writers who brought it to our attention.

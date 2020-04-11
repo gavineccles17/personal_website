@@ -1,11 +1,11 @@
 ---
-layout: single
-permalink: /services/
 title: Contact me
+permalink: "/services/"
+layout: single
 author_profile: true
 header:
-  image: /assets/images/land1.JPG
-  caption: "Lake Moraine"
+  image: "/assets/images/land1.JPG"
+  caption: Lake Moraine
 ---
 
 # Contact

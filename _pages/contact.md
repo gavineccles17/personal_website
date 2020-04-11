@@ -1,9 +1,9 @@
 ---
-layout: single
-permalink: /contact/
 title: Contact me
+permalink: "/contact/"
+layout: single
 author_profile: true
-description: "I am Gavin,..............."
+description: I am Gavin,...............
 comments: true
 ---
 

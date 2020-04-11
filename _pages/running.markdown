@@ -1,13 +1,14 @@
 ---
-layout: archive
-permalink: /running/
 title: Running
+permalink: "/running/"
+layout: archive
 author_profile: false
 sidebar:
-  - image: "/assets/images/gavin9.jpg"
-description: "This page will document everything about running. "
+- image: "/assets/images/gavin9.jpg"
+description: 'This page will document everything about running. '
 og_image: "/assets/images/gavin8.jpg"
 ---
+
 This page will document everything about running. [write](mailto:letters@aravindiyer.com) to me.
 
 ## Latest Stories

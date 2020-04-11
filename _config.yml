@@ -1,153 +1,170 @@
-# Jekyll configuration
-
-# Site settings
-locale: "en-US"
-title: "Gavin Eccles"
+---
+title: Gavin Eccles
+timezone: GB
+collections:
+  drafts:
+    title: Drafts
+    output: true
+    permalink: "/:categories/:title/"
+  photography:
+    title: Photography
+    output: true
+    permalink: "/:categories/:title/"
+  posts:
+    title: Posts
+    output: true
+  running:
+    title: Running
+    output: true
+    permalink: "/:categories/:title/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
+- scope:
+    path: ''
+    type: drafts
+  values:
+    layout: draft
+    author_profile: true
+    read_time: true
+    sitemap: false
+    noindex: true
+- scope:
+    path: ''
+    type: photography
+  values:
+    layout: article
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
+- scope:
+    path: ''
+    type: running
+  values:
+    layout: article
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
+locale: en-US
 title_separator: "-"
-name: "Gavin Eccles"
-description: "Gavin Eccles, running fanatic, aspiring photographer, tech lover and a zest for life."
+name: Gavin Eccles
+description: Gavin Eccles, running fanatic, aspiring photographer, tech lover and
+  a zest for life.
 url: https://www.gavineccles.com
 logo: "/assets/icons/v2/site-icon.png"
 words_per_minute: 200
-remote_theme: "mmistakes/minimal-mistakes@4.19.1"
-# Comment hosting from Disqus
-#comments:
-#  provider: "disqus"
-#  disqus:
-#    shortname: www-gavineccles-com
-
-# Comment hosting from Staticman
-repository: "gavineccles17/personal_website"
+remote_theme: mmistakes/minimal-mistakes@4.19.1
+repository: gavineccles17/personal_website
 comments:
-  provider: "staticman_v2"
+  provider: staticman_v2
 staticman:
-  branch: "master"
+  branch: master
 reCaptcha:
-  siteKey: "6LcYuugUAAAAAO09aTf_mBmaqKKumD3vLlBO602d"
+  siteKey: 6LcYuugUAAAAAO09aTf_mBmaqKKumD3vLlBO602d
   secret: dhYNj9umBF+wnwX4qfG0wRJk6ILhSOnClU31x5hGVC48vhXWTlAWRNaTfgoqHBB+EpmGcyFWaBrcmIOQSWr+PRISW8D9lp5lc/4aVymLqDJpC+AYbwCEoaHroAt5kZRBM5NciRLmGiw+5gGMuf60AdEhrfsiNjCl67qgjOQwV0c=
-
-
-    
-breadcrumbs: true  # disabled by default
-
-# Comment hosting from Staticman
-repository: "gavineccles17/personal_website"
-#comments:
-#  provider: #"staticman_v2"
-#staticman:
-#  branch: #"master"
-#reCaptcha:
-#  siteKey: #"6LfarVQUAAAAAOBAfH7NHqlBeI0sAx7jB7CcNp2u"
-#  secret: #"kJLDgpPcAPTcXPRne5EVo43urCYOrzrIx6GGoQnHKfTsSQ0l91oH6Bv1HqjJ+lmej1KfvbSIfDZ4T1NgOUYAJ6CBJtftmyQRuC7jYZtlXa+IADCc6NMIAkaiJIh9tlGdfVXpTXa92jfx5v2vUmJ5C35ZY8rhrY7OiJMDRlEzB5U="
-
-# Site search from Algolia
+breadcrumbs: true
 search: true
-search_provider: #"algolia"
+search_provider: 
 algolia:
-  application_id: #5XQCQN167D
-  index_name: #
-  search_only_api_key: #5c1ac82194add16945031972f23d08f7
-  powered_by: #"true"
+  application_id: 
+  index_name: 
+  search_only_api_key: 
+  powered_by: 
   files_to_exclude:
-    - _pages/blog.markdown
-    - _pages/home.markdown
-    - _pages/photography.markdown
-    - _pages/running.markdown
-    - _pages/sitemap.markdown
-    - _drafts/*.markdown
-
-# SEO and Analytics
-google_site_verification : "d9S_Yrp70B0aU-9V2-qxvzXgxfu-qWUHS711hjzpsxY"
-bing_site_verification   : #"EB2419D7F9B094E998F87C560BAE12C8"
+  - _pages/blog.markdown
+  - _pages/home.markdown
+  - _pages/photography.markdown
+  - _pages/running.markdown
+  - _pages/sitemap.markdown
+  - _drafts/*.markdown
+google_site_verification: d9S_Yrp70B0aU-9V2-qxvzXgxfu-qWUHS711hjzpsxY
+bing_site_verification: 
 analytics:
-  provider: "google-gtag"
+  provider: google-gtag
   google:
-    tracking_id: "G-ESYFBEXZ3M"
-
-# Social profile
-twitter:
-  #username: "aravindiyer"
+    tracking_id: G-ESYFBEXZ3M
+twitter: 
 facebook:
-  username: "gavin.eccles.5"
-  app_id: #"2013161692342257"
-#og_image: "/assets/images/selfie.jpg"
+  username: gavin.eccles.5
+  app_id: 
 social:
-  type: "Person"
-  name: "Gavin Eccles"
+  type: Person
+  name: Gavin Eccles
   links:
-    #- "https://twitter.com/aravindiyer"
-    - "https://facebook.com/gavin.eccles.5"
-    #- "https://medium.com/@.aravindiyer"
-    - "https://ie.linkedin.com/in/gavin-eccles-8469a3150"
-    - "https://instagram.com/gavineccles17"
-    #- "https://plus.google.com/+AravindIyer"
-
-# Site author
+  - https://facebook.com/gavin.eccles.5
+  - https://ie.linkedin.com/in/gavin-eccles-8469a3150
+  - https://instagram.com/gavineccles17
 author:
-  name: "Gavin Eccles"
+  name: Gavin Eccles
   avatar: "/assets/images/selfie3.jpg"
-  bio: "Running fanatic and aspiring photographer with a zest for life."
-  location: "Ireland"
-  uri: "https://www.gavineccles.com"
-  facebook: "gavin.eccles.5"
-  github: "gavineccles17"
-  google_plus:
+  bio: Running fanatic and aspiring photographer with a zest for life.
+  location: Ireland
+  uri: https://www.gavineccles.com
+  facebook: gavin.eccles.5
+  github: gavineccles17
+  google_plus: 
   medium: 
   instagram: gavineccles17
   twitter: 
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:gavineccles17@gmail.com
-    - label: "Strava"
-      icon: "fab fa-strava"
-      url: "https://www.strava.com/athletes/eccles_gavin"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://ie.linkedin.com/in/gavin-eccles-8469a3150"
-
-# Site Footer
+  - label: Email
+    icon: fas fa-fw fa-envelope-square
+    url: mailto:gavineccles17@gmail.com
+  - label: Strava
+    icon: fab fa-strava
+    url: https://www.strava.com/athletes/eccles_gavin
+  - label: LinkedIn
+    icon: fab fa-linkedin
+    url: https://ie.linkedin.com/in/gavin-eccles-8469a3150
 footer:
   links:
-    - label: "Strava"
-      icon: "fab fa-strava"
-      url: "https://www.strava.com/athletes/eccles_gavin"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/gavineccles17"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/gavineccles17"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://ie.linkedin.com/in/gavin-eccles-8469a3150"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:gavineccles17@gmail.com
-      
-
-# File reading
+  - label: Strava
+    icon: fab fa-strava
+    url: https://www.strava.com/athletes/eccles_gavin
+  - label: GitHub
+    icon: fab fa-fw fa-github
+    url: https://github.com/gavineccles17
+  - label: Instagram
+    icon: fab fa-fw fa-instagram
+    url: https://instagram.com/gavineccles17
+  - label: LinkedIn
+    icon: fab fa-linkedin
+    url: https://ie.linkedin.com/in/gavin-eccles-8469a3150
+  - label: Email
+    icon: fas fa-fw fa-envelope-square
+    url: mailto:gavineccles17@gmail.com
 include:
-  - _pages
-  - _redirects
+- _pages
+- _redirects
 exclude:
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Gemfile
-  - node_modules
+- ".sass-cache"
+- assets/js/plugins
+- assets/js/_main.js
+- assets/js/vendor
+- Gemfile
+- node_modules
 keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Jekyll processing
+- ".git"
+- ".svn"
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 markdown: kramdown
 highlighter: rouge
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -157,99 +174,26 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
-
-# Miscellaneous
-permalink: /:categories/:title/
-timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# Plugins
+permalink: "/:categories/:title/"
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-algolia
-  - jemoji
-  - jekyll-include-cache
-
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jekyll-algolia
+- jemoji
+- jekyll-include-cache
 tag_archive:
   type: liquid
-  path: /tags/
-
+  path: "/tags/"
 category_archive:
   type: jekyll-archives
-  path: /categories/
-
-
-# Collections - enable a collection for use as drafts
-collections:
-  drafts: 
-    output: true
-    permalink: /:categories/:title/
-  photography:
-    output: true
-    permalink: /:categories/:title/
-  running:
-    output: true
-    permalink: /:categories/:title/
-
-# HTML Compression
-# - http://jch.penibelst.de/
+  path: "/categories/"
 compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Image assets folder
 imagefolder: "/assets/images/"
-
-# Build settings
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _drafts
-  - scope:
-      path: ""
-      type: drafts
-    values:
-      layout: draft
-      author_profile: true
-      read_time: true
-      sitemap: false
-      noindex: true   #To hide from robots and crawlers
-  # _photography
-  - scope:
-      path: ""
-      type: photography
-    values:
-      layout: article
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _running
-  - scope:
-      path: ""
-      type: running
-    values:
-      layout: article
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true

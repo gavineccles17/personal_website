@@ -1,20 +1,22 @@
 # /_data/navigation.yml
 
 main:
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
-  - title: "Photography"
+  - title: "Services"
+    url: /services/
+  - title: "Gallary"
     url: /photography/
-  - title: "Running"
-    url: /running/
   - title: "Blog"
-    url: /blog/ 
+    url: /blog/
+  - title: "Blog Archive"
+    url: /year-archive/   
   - title: "Resume"
     url: /assets/docs/gavin_cv.pdf   
-  - title: "Archive"
-    url: /year-archive/
-  - title: "Terms of Use"
-    url: /terms/
+  - title: "Contact"
+    url: /contact/
 #  - title: "Line Art"
 #    url: /line-art/
 #  - title: "From Math to Code"

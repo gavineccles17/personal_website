@@ -9,3 +9,6 @@ header:
 ---
 
 ### Posts by <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i>  Tags [here](/tags)
+
+
+### Posts by <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i>  Categories [here](/categories/)

@@ -11,7 +11,7 @@ header:
    cta_url: "/about/"
 excerpt: "A tech guy writing about running, photography and personal stuff."
 description: "I am Gavin Eccles. This is my personal website."
-og_image: "/assets/images/self-sketch-splash.jpg"
+og_image: "/assets/images/site-icon-76x76.png"
 feature_collections:
   - image_path: /assets/images/land2.JPG
     alt: "Collage of cover images of Photography posts"

@@ -7,13 +7,19 @@ title_separator: "-"
 name: "Gavin Eccles"
 description: "Gavin Eccles, running fanatic, aspiring photographer, tech lover and a zest for life."
 url: https://www.gavineccles.com
+logo: "/assets/icons/v2/site-icon.png"
 words_per_minute: 200
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 # Comment hosting from Disqus
-#comments:
-#  provider: "disqus"
-#  disqus:
-#    shortname: "gavineccles"
+comments:
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
+
+    
+breadcrumbs: true  # disabled by default
 
 # Comment hosting from Staticman
 repository: "gavineccles17/personal_website"
@@ -42,28 +48,28 @@ algolia:
     - _drafts/*.markdown
 
 # SEO and Analytics
-google_site_verification : #"o5P1GShvyxwaztgNGI9OXDlnWXa9MjkhbyIPUNfNsFI"
+google_site_verification : "d9S_Yrp70B0aU-9V2-qxvzXgxfu-qWUHS711hjzpsxY"
 bing_site_verification   : #"EB2419D7F9B094E998F87C560BAE12C8"
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: #"UA-115949882-1"
+    tracking_id: "G-ESYFBEXZ3M"
 
 # Social profile
 twitter:
   #username: "aravindiyer"
 facebook:
-  username: "gavin_eccles"
+  username: "gavin.eccles.5"
   app_id: #"2013161692342257"
-og_image: "/assets/images/self-sketch-splash.jpg"
+og_image: "/assets/images/selfie.jpg"
 social:
   type: "Person"
-  name: "Aravind Iyer"
+  name: "Gavin Eccles"
   links:
     #- "https://twitter.com/aravindiyer"
-    - "https://facebook.com/gavin_eccles"
+    - "https://facebook.com/gavin.eccles.5"
     #- "https://medium.com/@.aravindiyer"
-    #- "https://www.linkedin.com/in/aravindiyer"
+    - "https://ie.linkedin.com/in/gavin-eccles-8469a3150"
     - "https://instagram.com/gavineccles17"
     #- "https://plus.google.com/+AravindIyer"
 
@@ -74,7 +80,7 @@ author:
   bio: "Running fanatic and aspiring photographer with a zest for life."
   location: "Ireland"
   uri: "https://www.gavineccles.com"
-  facebook: #"gavin_eccles"
+  facebook: "gavin.eccles.5"
   github: "gavineccles17"
   google_plus: #"+AravindIyer"
   medium: #".aravindiyer"
@@ -150,7 +156,7 @@ sass:
 
 # Miscellaneous
 permalink: /:categories/:title/
-timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
@@ -161,6 +167,14 @@ plugins:
   - jekyll-algolia
   - jemoji
   - jekyll-include-cache
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
 
 
 # Collections - enable a collection for use as drafts

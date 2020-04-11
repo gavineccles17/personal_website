@@ -11,10 +11,21 @@ logo: "/assets/icons/v2/site-icon.png"
 words_per_minute: 200
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 # Comment hosting from Disqus
+#comments:
+#  provider: "disqus"
+#  disqus:
+#    shortname: www-gavineccles-com
+
+# Comment hosting from Staticman
+repository: "gavineccles17/personal_website"
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: www-gavineccles-com
+  provider: "staticman_v2"
+staticman:
+  branch: "master"
+reCaptcha:
+  siteKey: "6LcYuugUAAAAAO09aTf_mBmaqKKumD3vLlBO602d"
+  secret: 6LcYuugUAAAAACQ2SN3EY85SxVHmnchFWLnTPR1m
+
 
     
 breadcrumbs: true  # disabled by default
@@ -34,7 +45,7 @@ search: true
 search_provider: #"algolia"
 algolia:
   application_id: #5XQCQN167D
-  index_name: #ARAVIND_WEBSITE
+  index_name: #
   search_only_api_key: #5c1ac82194add16945031972f23d08f7
   powered_by: #"true"
   files_to_exclude:

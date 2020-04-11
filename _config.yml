@@ -14,7 +14,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 comments:
   provider: "disqus"
   disqus:
-    shortname: "www-gavineccles-com"
+    shortname: www-gavineccles-com
 
     
 breadcrumbs: true  # disabled by default

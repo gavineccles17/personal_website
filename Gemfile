@@ -3,6 +3,8 @@ source "https://rubygems.org"
 #gem "jekyll", "~> 3.7"
 #gem "minimal-mistakes-jekyll", "~> 4.11"
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll"
+gem "jekyll-paginate"
 
 group :jekyll_plugins do
   gem "jekyll-algolia", "~> 1.3"

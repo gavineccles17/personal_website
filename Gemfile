@@ -4,7 +4,7 @@ source "https://rubygems.org"
 #gem "minimal-mistakes-jekyll", "~> 4.11"
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll"
-gem "jekyll-paginate"
+gem "jekyll-paginate", "~> 1.1.0"
 
 group :jekyll_plugins do
   gem "jekyll-algolia", "~> 1.3"

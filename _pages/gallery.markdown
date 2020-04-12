@@ -6,6 +6,7 @@ author_profile: false
 description: This page will show all my photographs as I strive to become a good photographer.
 toc: true
 og_image: "/assets/images/land2.jpg"
+comments: true
 gallery:
   - aspect: "1"
     url: belize.jpg

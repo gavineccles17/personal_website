@@ -1,13 +1,14 @@
 ---
-title: Contact me
+title: Contact
 permalink: "/contact/"
 layout: single
 author_profile: true
-description: I am Gavin,...............
-comments: true
+description: Contact me with an comments, suggestions or enquiries
+header:
+  image: /assets/images/grand_canyon_boys.jpg
+  caption: Grand canyon with the lads
 ---
 
-# Contact
-If you have a question, comment or suggestion, please send me a message or write to me. The best way to reach me is to [email me](mailto:gavineccles17@gmail.com)). I know it's old school, but I would really appreciate it if you would write in, if you had something to say.
+If you have a question, suggestion or want to enquire about any services, please send me a message or write to me. The best way to contact me is through social media or sending me an [email](mailto:gavineccles17@gmail.com). If you would like to follow me on social media, my accounts are linked in the author section by clicking “follow” and are displayed at the bottom of the page. 
 
-If you would like to follow me on social media, please use the links from the sidebar on the left or click the follow button [at the top](#) to display the links.
+Thanks!

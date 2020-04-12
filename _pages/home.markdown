@@ -8,34 +8,30 @@ header:
   overlay_image: "/assets/images/land1.JPG"
   cta_label: About me
   cta_url: "/about/"
-excerpt: A tech guy writing about running, photography and personal stuff.
+excerpt: Welcome to my world 
 description: I am Gavin Eccles. This is my personal website.
 og_image: "/assets/images/site-icon-76x76.png"
 feature_collections:
-- image_path: "/assets/images/land2.JPG"
-  alt: Collage of cover images of Photography posts
-  title: Photography
-  excerpt: Playlists, music albums, stories about how they were made or how I found
-    them.
-  url: "/photography/"
-  btn_label: Read More
-  btn_class: btn--primary
-- image_path: "/assets/images/holly1.jpg"
-  alt: Collage of cover images of Running posts
-  title: Running
-  description: humanity
-  excerpt: Things we do, emotions we feel and little everyday things that make us
-    human.
-  url: "/running/"
-  btn_label: Read More
-  btn_class: btn--primary
-- image_path: "/assets/images/gavin5.JPG"
-  alt: Collage of cover images of blog posts
+- image_path: "/assets/images/guiness_lake.jpg"
+  alt: Image for blogs
   title: Personal Blog
-  excerpt: Sundry observations about events, travels, tech and stuff in an ordinary
-    life.
+  excerpt: Sundry observations about tech, travels, running and more.
   url: "/blog/"
   btn_label: Read More
+  btn_class: btn--primary
+- image_path: "/assets/images/belize.jpg"
+  alt: belize pic
+  title: Gallery
+  excerpt: Here's a collection of some of my favoutie snaps. 
+  url: "/gallery/"
+  btn_label: See pics
+  btn_class: btn--primary
+- image_path: "/assets/images/services.jpg"
+  alt: services pic
+  title: Services
+  excerpt: Ever wanted a neat personal website? I can help you make that possible. 
+  url: "/services/"
+  btn_label: Find out
   btn_class: btn--primary
 ---
 

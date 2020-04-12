@@ -3,13 +3,27 @@ title: Blog
 permalink: "/blog/"
 layout: archive
 author_profile: true
-sidebar:
-- image: "/assets/images/blog-cover.jpg"
-description: This is where all my blogs will be archived. Full of crap but might be
-  worth the read.
+header:
+  image: /assets/images/costa_rica.jpg
+  caption: Costa Rica
+description: This is where my latest blogs will appear
 ---
 
-This is where all my blogs will be archived. Full of crap but might be worth the read. [write](mailto:letters@aravindiyer.com) to me.
+This is where my latest blogs will appear. Some of the topics I have planned for my blogs:
+
+* Technology
+* Travel
+* Running
+* Photography
+* Books
+* Motivation
+* Life in General 
+
+The first blogs that I have to write on my list are:
+1.	How I setup a website 
+1.	Dealing with the Corona Virus
+
+Please [reach out to me]({{ site.baseurl }}/contact/) if anyone has any topics they feel would be good to discuss, thanks!
 
 ## Latest Stories
 

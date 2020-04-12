@@ -5,15 +5,15 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Services"
-    url: /services/
-  - title: "Gallary"
-    url: /photography/
   - title: "Blog"
     url: /blog/
+  - title: "Gallery"
+    url: /gallery/
+  - title: "Services"
+    url: /services/
   - title: "Blog Archive"
     url: /year-archive/   
-  - title: "Resume"
+  - title: "Resumé"
     url: /assets/docs/gavin_cv.pdf   
   - title: "Contact"
     url: /contact/

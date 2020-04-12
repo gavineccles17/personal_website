@@ -80,18 +80,6 @@ reCaptcha:
 breadcrumbs: true
 search: true
 search_provider: 
-algolia:
-  application_id: 
-  index_name: 
-  search_only_api_key: 
-  powered_by: 
-  files_to_exclude:
-  - _pages/blog.markdown
-  - _pages/home.markdown
-  - _pages/photography.markdown
-  - _pages/running.markdown
-  - _pages/sitemap.markdown
-  - _drafts/*.markdown
 google_site_verification: d9S_Yrp70B0aU-9V2-qxvzXgxfu-qWUHS711hjzpsxY
 bing_site_verification: 
 analytics:

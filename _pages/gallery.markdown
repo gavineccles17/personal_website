@@ -108,7 +108,7 @@ gallery:
     image_path: bacalar2.jpg
 ---
 
-This page will show all my photographs as I strive to become a good photographer.
+Here lies a Gallery of some of my favourite pics I have taken throughout the years. I am studying photography in my spare time so I hope to fill this with awesome pics in due course. 
 
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}

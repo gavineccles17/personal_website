@@ -7,6 +7,7 @@ header:
   image: /assets/images/lake_louise.JPG
   caption: Lake louise, Banff, Canada
 toc: true
+comments: true
 ---
 
 Hi, I am Gavin Eccles. Welcome to my site! I am 23 years old and live by the lovely velvet strand in Dublin. I am passionate about sports and technology. Currently, I work as a software developer for Optum. 

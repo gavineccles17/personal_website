@@ -9,6 +9,7 @@ header:
   teaser: "/assets/images/success.jpeg"
 excerpt: First blog
 description: First time writing
+comments: true
 ---
 
 Delighted to have successfully made my first website under the domain - gavineccles.com.

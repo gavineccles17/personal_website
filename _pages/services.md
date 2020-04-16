@@ -16,6 +16,7 @@ If you are interested in:
 *	Establishing an online presence for a small business
 *	Owning a personal website like this one where you can portray to the world what you’re all about
 *	Having a blogging platform under your own domain
+
 I would be able to help by doing all the developing and setup tasks for you. Please feel free to [contact me]({{ site.baseurl }}/contact/) if you are interested. 
 
 ## Photography

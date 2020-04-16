@@ -57,9 +57,6 @@ gallery:
     url: holly_beach.jpg
     image_path: holly_beach.jpg
   - aspect: "1"
-    url: holly_pink.jpg
-    image_path: holly_pink.jpg
-  - aspect: "1"
     url: holly_white.jpg
     image_path: holly_white.jpg
   - aspect: "1"

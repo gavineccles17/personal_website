@@ -15,7 +15,7 @@ Hi, I am Gavin Eccles. Welcome to my site! I am 23 years old and live by the lov
 {% include figure caption="Myself in Minca, Colombia" image_path="gavin_colmbia.jpg" alt="Minca, colombia" %}
 
 ## About this site
-I’ve always wanted to create my own website, I just never found the time to make one. However, over the past few weeks, Covid-19 has caused major disruption and has led to an excess of time on my hands. I thought I should do something productive with all this time on my hands and start developing a site. A quick Google search for “Gavin Eccles” results in many people sharing my name but Gavin from Dublin evident. However, the domain name www.gavineccles.com was free and a few clicks later it was mine. I plan on using this website to blog about anything I find interesting or that could educate a wider audience. 
+I’ve always wanted to create my own website, I just never found the time to make one. However, over the past few weeks, Covid-19 has caused major disruption and has led to an excess of time on my hands. I decided it was a good opportunity to start developing a website. A quick Google search for “Gavin Eccles” and you will find many people sharing my name. Gavin Eccles from Dublin does not show up....yet. The domain name www.gavineccles.com was still free and a few clicks later it was mine. I plan on using this website to blog about anything I find interesting or that could educate a wider audience. 
 
 ## Hobbies and interests
 Sports have always played a big part in my life. The list is not limited to: football, gaelic football, swimming, tennis and running. One of my greatest passions in life is running whether it is laps around a muddy field (cross country) or 26 long miles on the road. I currently compete for Portmarnock AC and Trinity Harriers. My PBs are marathon: 2hr47m, 10K: 34:27, 5M: 27:00 and 5K: 16:10. However, there is way more to running than PBs, running is often the highlight of my day. 
@@ -41,8 +41,6 @@ The primary objective of the MSISS programme is to produce graduates who are bot
 {% include figure caption="Trinity College Dublin" image_path="tcd.jpg" alt="TCD" %}
 
 Throughout my time in College and in the working world, I have built up an array of skills. Some of the programming languages I have learned include Python, Java, R and SQL. My main interest is in the data analytics and machine learning space. I have become accustomed to methods such as Neural Networks, Boosting and Random Forests. Find my (Kaggle account) here where I try to partake in the latest data science competitions. My final year project focused on applying machine learning methods to NBA datasets to predict player performances. In my spare time I try to upskill as much as I can like learning HTML and CSS to build this website. 
-
-You can find my CV [here]({{ site.baseurl }}{% link /assets/docs/gavin_cv.pdf %})
 
 Please feel free to [contact me]({{ site.baseurl }}/contact/) if you have any queries, comments or suggestions. Thank you!
 

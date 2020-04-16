@@ -12,9 +12,7 @@ main:
   - title: "Services"
     url: /services/
   - title: "Blog Archive"
-    url: /year-archive/   
-  - title: "Resumé"
-    url: /assets/docs/gavin_cv.pdf   
+    url: /year-archive/    
   - title: "Contact"
     url: /contact/
 #  - title: "Line Art"

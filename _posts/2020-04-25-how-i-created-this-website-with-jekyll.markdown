@@ -109,6 +109,14 @@ After spending a number of hours creating and designing the website, I wanted to
 * **Forestry.io.** It looks very professional for a client especially if the purpose is just to make blogs. However, a lack of documentation and what seemed simple like importing files was not. Also the preview was quite slow.
 * **Siteleaf.com.** It doesn't look great, quite childish. Better for developer as you can see all the files but you can’t click into it. Couldn’t seem to get certain pages showing.
 * **Cloudcannon.** I thought cloudcannon was good for my initial site theme as it has a live dashboard and can view/edit straight from URL. However, it was not compatible with the jekyll version for my final site which was a pity.
-* **Netlify.** This was the last one I tried and it was brilliant. I was apprehensive at first because it was not compatible with Github and meant switching my host to Netlify. This was not too difficult, it just involved redirecting to Netlfiy from DNS provider. <https://medium.com/@yashjoshi76/host-your-github-page-on-a-custom-domain-using-netlify-287850650d75>. Netlfiy has CI/CD (continuous integration/continuous deployment) which enables you to make changes review them later and confirm to push. The best part is you can make changes directly on your website in your browser (like I am now, see below).
+* **Netlify.** This was the last one I tried and it was brilliant. I was apprehensive at first because you have to switch your host from Github to Netlify. It still uses git for version control just not hosting. This was not too difficult, it just involved redirecting to Netlfiy from DNS provider. <https://medium.com/@yashjoshi76/host-your-github-page-on-a-custom-domain-using-netlify-287850650d75>. Netlfiy has CI/CD (continuous integration/continuous deployment) which enables you to make changes review them later and confirm to push. The best part is you can make changes directly on your website in your browser (like I am now, see below).
 
 ![Currently writing this blog in browser](/assets/images/screenshot-2020-04-25-at-21.41.51.png)
+
+And there you have it, how i managed to create this site. Next, I plan on looking at creating a site with Wordpress then comparing them. 
+
+I hope this article will simplify the task for yourself and help you make amazing websites!
+
+Slán go fóill,
+
+Gavin

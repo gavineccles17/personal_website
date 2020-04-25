@@ -7,12 +7,8 @@ header:
   teaser: /assets/images/jekyll.png
 excerpt: Website creation
 description: A guide to creating your first static site
-og_image: /assets/images/arsenal.jpg
+og_image: /assets/images/jekyll.png
 ---
-
-
-{% include figure caption="Jekyll static site generator!" image_path="jekyll.png" alt="jekyll" %}
-
 ## Background Research
 
 I set myself a target to create my own personal website. The purpose of the site was to create a space where I could write blog posts, document projects I am working on and as an attempt to learn web development.
@@ -81,7 +77,8 @@ You can clone any of the sites on Github, maybe check for copyrights but most I 
 
 I initially went with Mediumish theme then switched to Feeling Responsive and finally settled on Minimal Mistakes. Mediumish looks like the blogging platform Medium, love the font. Feeling responsive is great, very well documented. Minimal Mistakes was my favourite as it is now supported by Github, works great on mobile, has detailed documentation and lots of room to edit and make it your own.
 
-Following the documentation for minimal mistakes, all you have to do is edit the gem file on your current basic website and the theme will be install. A theme that is supported as a gemfile will hide some of the files like _includes, _sass, and /assets/. This is normal, all the files are stored in your Ruby library instead. (run this to see where 'bundle info minimal-mistakes-jekyll'). Jekyll will use the files in your project first before falling back to the default versions of the theme. So you can overwrite and make changes if you wish. Just use the documentation for creating new pages and posts and it will be self explanatory. 
+Following the documentation for minimal mistakes, all you have to do is edit the gem file on your current basic website and the theme will be install. A theme that is supported as a gemfile will hide some of the files like _includes, _sass, and /assets/. This is normal, all the files are stored in your Ruby library instead. (run this to see where 'bundle info minimal-mistakes-jekyll'
+). Jekyll will use the files in your project first before falling back to the default versions of the theme. So you can overwrite and make changes if you wish. Just use the documentation for creating new pages and posts and it will be self explanatory. 
 
 <https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#ruby-gem-method>
 
@@ -105,13 +102,14 @@ Github gives you a site like http(s)://<username>.github.io/<projectname> but if
 
 <https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages>
 
-**Comparing different CMS tools**
+**Comparing different CMS tools
+**
 
 After spending a number of hours creating and designing the website, I wanted to use a CMS platform so I could easily make blogs and upload pictures in the future. This removes the hassle of doing git versions and changes in a code editor. Instead, you get a handy UI tool where you can edit content which pushes straight to Github for you. These are the CMS's I investigated. The basic plans on all of these are free and this is all you should need.
 
 * **Forestry.io.** It looks very professional for a client especially if the purpose is just to make blogs. However, a lack of documentation and what seemed simple like importing files was not. Also the preview was quite slow.
 * **Siteleaf.com.** It doesn't look great, quite childish. Better for developer as you can see all the files but you can’t click into it. Couldn’t seem to get certain pages showing.
 * **Cloudcannon.** I thought cloudcannon was good for my initial site theme as it has a live dashboard and can view/edit straight from URL. However, it was not compatible with the jekyll version for my final site which was a pity.
-* **Netlify.** This was the last one I tried and it was brilliant. It has CI/CD (continuous integration/continuous deployment) which enables you to make changes review them later and confirm to push. The best part is you can make changes directly on your website in your browser (like I am now).
+* **Netlify.** This was the last one I tried and it was brilliant. I was apprehensive at first because it was not compatible with Github and meant switching my host to Netlify. This was not too difficult, it just involved redirecting to Netlfiy from DNS provider. <https://medium.com/@yashjoshi76/host-your-github-page-on-a-custom-domain-using-netlify-287850650d75>. Netlfiy has CI/CD (continuous integration/continuous deployment) which enables you to make changes review them later and confirm to push. The best part is you can make changes directly on your website in your browser (like I am now, see below).
 
-I was apprehensive at first because it was not compatible with Github and meant switching my host to Netlify. This was not too difficult, just involved redirecting to Netlfiy from DNS provider. I
+![Currently writing this blog in browser](/assets/images/screenshot-2020-04-25-at-21.41.51.png)

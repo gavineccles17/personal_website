@@ -37,6 +37,8 @@ I would choose Option 1 or 2 if my website required facilitating customer purcha
 
 Another option I recently came across was Google site builder which creates simple Websites, quickly and free too.
 
+
+
 ## Developing a static site
 
 In order to go the more manual approach and create a static, you need to consider:
@@ -55,7 +57,9 @@ Follow this article <https://www.taniarascia.com/make-a-static-website-with-jeky
 
 Approach 2 enables you to skip all the initial design steps by using a template. There is a large amount of templates for Jekyll website and you should explore the following links until you find a template you think would suit your site. I would encourage you to spend time choosing as I made the mistake of changing my mind later on which wasted lots of time.
 
-**Jekyll Themes**
+
+
+## **Jekyll Themes**
 
 <https://github.com/topics/jekyll-theme> - List of the ones supported and maintained by Github
 
@@ -94,7 +98,9 @@ In the minimal mistakes documentation, you will find steps to do the following a
 * Enabling comments on articles
 * Adding site searches
 
-**Setting up a Domain Name System (DNS)**
+
+
+## Setting up a Domain Name System (DNS)
 
 Github gives you a site like http(s)://<username>.github.io/<projectname> but if you want to have a custom domain you will have to implement a few extra steps and incur a small fee. It's worth it though! It doesn't take long, just need to add a file to your github called CName then point your DNS provider to your Github repo. It went with register365 for my DNS provider, in hindsight I would have went with Google as there's my documentation online if things get confusing. Also be aware that it takes a few hours for your site to be live.
 
@@ -102,8 +108,9 @@ Github gives you a site like http(s)://<username>.github.io/<projectname> but if
 
 <https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages>
 
-**Comparing different CMS tools
-**
+
+
+## **Comparing different CMS tools**
 
 After spending a number of hours creating and designing the website, I wanted to use a CMS platform so I could easily make blogs and upload pictures in the future. This removes the hassle of doing git versions and changes in a code editor. Instead, you get a handy UI tool where you can edit content which pushes straight to Github for you. These are the CMS's I investigated. The basic plans on all of these are free and this is all you should need.
 

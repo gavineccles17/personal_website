@@ -9,6 +9,8 @@ excerpt: Website creation
 description: A guide to creating your first static site
 og_image: /assets/images/jekyll.png
 ---
+![Jekyll Website](/assets/images/jekyll.png)
+
 ## Background Research
 
 I set myself a target to create my own personal website. The purpose of the site was to create a space where I could write blog posts, document projects I am working on and as an attempt to learn web development.

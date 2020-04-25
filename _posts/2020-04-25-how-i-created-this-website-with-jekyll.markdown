@@ -1,8 +1,8 @@
 ---
 title: How I created this website with Jekyll
 date: '2020-04-25T16:30:38+01:00'
-categories: 'List["tech"]'
-tags: 'List["tech"]'
+categories: Tech
+tags: Tech
 header:
   teaser: /assets/images/jekyll.png
 excerpt: Website creation
@@ -37,8 +37,6 @@ I would choose Option 1 or 2 if my website required facilitating customer purcha
 
 Another option I recently came across was Google site builder which creates simple Websites, quickly and free too.
 
-
-
 ## Developing a static site
 
 In order to go the more manual approach and create a static, you need to consider:
@@ -56,8 +54,6 @@ There are two ways to create a jekyll website, either initialise one yourself or
 Follow this article <https://www.taniarascia.com/make-a-static-website-with-jekyll/>. You have to install a few dependencies...Ruby, Bundler, Jekyll and Git. Once all packages are installed, in two lines of code you have yourself a basic site available at a local host. Jump straight to the part where you push the site to your Github repository and you will have a site on Github pages for the world to see. 
 
 Approach 2 enables you to skip all the initial design steps by using a template. There is a large amount of templates for Jekyll website and you should explore the following links until you find a template you think would suit your site. I would encourage you to spend time choosing as I made the mistake of changing my mind later on which wasted lots of time.
-
-
 
 ## **Jekyll Themes**
 
@@ -98,8 +94,6 @@ In the minimal mistakes documentation, you will find steps to do the following a
 * Enabling comments on articles
 * Adding site searches
 
-
-
 ## Setting up a Domain Name System (DNS)
 
 Github gives you a site like http(s)://<username>.github.io/<projectname> but if you want to have a custom domain you will have to implement a few extra steps and incur a small fee. It's worth it though! It doesn't take long, just need to add a file to your github called CName then point your DNS provider to your Github repo. It went with register365 for my DNS provider, in hindsight I would have went with Google as there's my documentation online if things get confusing. Also be aware that it takes a few hours for your site to be live.
@@ -107,8 +101,6 @@ Github gives you a site like http(s)://<username>.github.io/<projectname> but if
 <https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe>
 
 <https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages>
-
-
 
 ## **Comparing different CMS tools**
 

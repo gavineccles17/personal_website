@@ -52,44 +52,35 @@ I went with Jekyll as it seemed to be the most popular and had a grand selection
 
 For this Blog, I will just include the articles and resources that helped me create a site rather than explain a step by step tutorial because that's just me re-writing someone else's work. In truth, this site took about 40 hours for me to do but a large part of this was due to researching, indecisiveness of theme and choosing images for my site. If I was to create a new site again, it would take a fraction of the time. Hopefully narrowing it down to the helpful resources below will minimise the time for you too.
 
-There are two ways to create a jekyll website, either initialise one yourself or clone someone else's git project. This article shows the simple steps for each one [tutorial](<http://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html>). I would recommend you do the first approach to quickly learn and get your head around how jekyll projects work and then do approach 2.
+There are two ways to create a jekyll website, either initialise one yourself or clone someone else's git project. This [article](<http://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html>) shows the simple steps for each one. I would recommend you do the first approach to quickly learn and get your head around how jekyll projects work and then do approach 2.
 
-[tutorial](http://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html)
-
-Follow this article <https://www.taniarascia.com/make-a-static-website-with-jekyll/>. You have to install a few dependencies...Ruby, Bundler, Jekyll and Git. Once all packages are installed, in two lines of code you have yourself a basic site available at a local host. Jump straight to the part where you push the site to your Github repository and you will have a site on Github pages for the world to see. 
+Follow this [article](<https://www.taniarascia.com/make-a-static-website-with-jekyll/>). You have to install a few dependencies...Ruby, Bundler, Jekyll and Git. Once all packages are installed, in two lines of code you have yourself a basic site available at a local host. Jump straight to the part where you push the site to your Github repository and you will have a site on Github pages for the world to see. 
 
 Approach 2 enables you to skip all the initial design steps by using a template. There is a large amount of templates for Jekyll website and you should explore the following links until you find a template you think would suit your site. I would encourage you to spend time choosing as I made the mistake of changing my mind later on which wasted lots of time.
 
 ## **Jekyll Themes**
 
-<https://github.com/topics/jekyll-theme> - List of the ones supported and maintained by Github
-
-<https://themefisher.com/best-jekyll-themes/> - 35 examples of cool themes
-
-<https://github.com/jekyll/jekyll/wiki/sites> - List of websites implementing the themes
+* List of the ones supported and maintained by Github. [Here](<https://github.com/topics/jekyll-theme>)
+* 35 examples of cool themes. [Here](<https://themefisher.com/best-jekyll-themes/>)
+* List of websites implementing the themes. [Here](<https://github.com/jekyll/jekyll/wiki/sites>)
 
 There are a number of themes that you can purchase if none of the free ones suit your liking. These themes below were my favourite and took me awhile to choose between them. 
 
-<https://wowthemesnet.github.io/mediumish-theme-jekyll/>
-
-<https://jekyller.github.io/jasper2/>
-
-<https://mmistakes.github.io/minimal-mistakes/>
-
-<https://phlow.github.io/feeling-responsive/>
+* [Mediumish](<https://wowthemesnet.github.io/mediumish-theme-jekyll/>)
+* [Jasper2](<https://jekyller.github.io/jasper2/>)
+* [Minimal Mistakes](<https://mmistakes.github.io/minimal-mistakes/>)
+* [Feeling Responsive](<https://phlow.github.io/feeling-responsive/>)
 
 You can clone any of the sites on Github, maybe check for copyrights but most I saw were happy to allow you to clone.  
 
 I initially went with Mediumish theme then switched to Feeling Responsive and finally settled on Minimal Mistakes. Mediumish looks like the blogging platform Medium, love the font. Feeling responsive is great, very well documented. Minimal Mistakes was my favourite as it is now supported by Github, works great on mobile, has detailed documentation and lots of room to edit and make it your own.
 
 Following the documentation for minimal mistakes, all you have to do is edit the gem file on your current basic website and the theme will be install. A theme that is supported as a gemfile will hide some of the files like _includes, _sass, and /assets/. This is normal, all the files are stored in your Ruby library instead. (run this to see where 'bundle info minimal-mistakes-jekyll'
-). Jekyll will use the files in your project first before falling back to the default versions of the theme. So you can overwrite and make changes if you wish. Just use the documentation for creating new pages and posts and it will be self explanatory. 
+). Jekyll will use the files in your project first before falling back to the default versions of the theme. So you can overwrite and make changes if you wish. Just use the [documentation](<https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#ruby-gem-method>) for creating new pages and posts and it will be self explanatory. 
 
-<https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#ruby-gem-method>
+If you get confused, you are welcome to clone [my repository](<https://github.com/gavineccles17/personal_website>) and use this as your starting point.
 
-If you get confused, you are welcome to clone my repository <https://github.com/gavineccles17/personal_website> and use this as your starting point.
-
-I used <https://www.aravindiyer.com/> as a guideline for making my site. He has a number of helpful tutorials for using Minimal mistakes theme. 
+I used [this site](<https://www.aravindiyer.com/>) as a guideline for making my site. He has a number of helpful tutorials for using Minimal mistakes theme. 
 
 In the minimal mistakes documentation, you will find steps to do the following and more:
 
@@ -101,11 +92,11 @@ In the minimal mistakes documentation, you will find steps to do the following a
 
 ## Setting up a Domain Name System (DNS)
 
-Github gives you a site like http(s)://<username>.github.io/<projectname> but if you want to have a custom domain you will have to implement a few extra steps and incur a small fee. It's worth it though! It doesn't take long, just need to add a file to your github called CName then point your DNS provider to your Github repo. It went with register365 for my DNS provider, in hindsight I would have went with Google as there's my documentation online if things get confusing. Also be aware that it takes a few hours for your site to be live.
+Github gives you a site like "http(s)://<username>.github.io/<projectname>" but if you want to have a custom domain you will have to implement a few extra steps and incur a small fee. It's worth it though! It doesn't take long, just need to add a file to your github called CName then point your DNS provider to your Github repo. It went with register365 for my DNS provider, in hindsight I would have went with Google as there's my documentation online if things get confusing. Also be aware that it takes a few hours for your site to be live.
 
-<https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe>
-
-<https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages>
+* [Easy tutorial](<https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe>)
+* [Troubleshooting](<https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages>
+)
 
 ## **Comparing different CMS tools**
 
@@ -114,7 +105,7 @@ After spending a number of hours creating and designing the website, I wanted to
 * **Forestry.io.** It looks very professional for a client especially if the purpose is just to make blogs. However, a lack of documentation and what seemed simple like importing files was not. Also the preview was quite slow.
 * **Siteleaf.com.** It doesn't look great, quite childish. Better for developer as you can see all the files but you can’t click into it. Couldn’t seem to get certain pages showing.
 * **Cloudcannon.** I thought cloudcannon was good for my initial site theme as it has a live dashboard and can view/edit straight from URL. However, it was not compatible with the jekyll version for my final site which was a pity.
-* **Netlify.** This was the last one I tried and it was brilliant. I was apprehensive at first because you have to switch your host from Github to Netlify. It still uses git for version control just not hosting. This was not too difficult, it just involved redirecting to Netlfiy from DNS provider. <https://medium.com/@yashjoshi76/host-your-github-page-on-a-custom-domain-using-netlify-287850650d75>. Netlfiy has CI/CD (continuous integration/continuous deployment) which enables you to make changes review them later and confirm to push. The best part is you can make changes directly on your website in your browser (like I am now, see below).
+* **Netlify.** This was the last one I tried and it was brilliant. I was apprehensive at first because you have to switch your host from Github to Netlify. It still uses git for version control just not hosting. This was not too difficult, it just involved redirecting to Netlfiy from DNS provider, [tutorial here](<https://medium.com/@yashjoshi76/host-your-github-page-on-a-custom-domain-using-netlify-287850650d75>). Netlfiy has CI/CD (continuous integration/continuous deployment) which enables you to make changes review them later and confirm to push. The best part is you can make changes directly on your website in your browser (like I am now, see below).
 
 ![Currently writing this blog in browser](/assets/images/screenshot-2020-04-25-at-21.41.51.png)
 

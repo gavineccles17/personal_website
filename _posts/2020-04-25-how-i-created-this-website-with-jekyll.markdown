@@ -9,7 +9,8 @@ excerpt: Website creation
 description: A guide to creating your first static site
 og_image: /assets/images/jekyll.png
 ---
-![Jekyll Website](/assets/images/jekyll.png)
+
+{% include figure caption="Jekyll Website" image_path="jekyll.png" alt="Jekyll Website" %}
 
 ## Background Research
 
@@ -51,7 +52,9 @@ I went with Jekyll as it seemed to be the most popular and had a grand selection
 
 For this Blog, I will just include the articles and resources that helped me create a site rather than explain a step by step tutorial because that's just me re-writing someone else's work. In truth, this site took about 40 hours for me to do but a large part of this was due to researching, indecisiveness of theme and choosing images for my site. If I was to create a new site again, it would take a fraction of the time. Hopefully narrowing it down to the helpful resources below will minimise the time for you too.
 
-There are two ways to create a jekyll website, either initialise one yourself or clone someone else's git project. This article shows the simple steps for each one <http://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html>. I would recommend you do the first approach to quickly learn and get your head around how jekyll projects work and then do approach 2.
+There are two ways to create a jekyll website, either initialise one yourself or clone someone else's git project. This article shows the simple steps for each one [tutorial](<http://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html>). I would recommend you do the first approach to quickly learn and get your head around how jekyll projects work and then do approach 2.
+
+[tutorial](http://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html)
 
 Follow this article <https://www.taniarascia.com/make-a-static-website-with-jekyll/>. You have to install a few dependencies...Ruby, Bundler, Jekyll and Git. Once all packages are installed, in two lines of code you have yourself a basic site available at a local host. Jump straight to the part where you push the site to your Github repository and you will have a site on Github pages for the world to see. 
 

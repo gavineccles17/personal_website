@@ -2,9 +2,9 @@
 title: First blog - Website Success!
 date: 2020-04-11 19:15:22 +01:00
 categories:
-- tech
+- Tech
 tags:
-- tech
+- Tech
 header:
   teaser: "/assets/images/success.jpeg"
 excerpt: First blog

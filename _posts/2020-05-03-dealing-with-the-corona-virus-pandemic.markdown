@@ -5,7 +5,7 @@ categories: Inspiration
 tags: Personal
 header:
   alt: Stay positive during this time
-  image: /assets/images/whatsapp-image-2020-05-03-at-10.05.16.jpeg
+  image: ''
   teaser: /assets/images/whatsapp-image-2020-05-03-at-10.05.16.jpeg
 excerpt: >-
   The corona virus pandemic has been a complete shock to the system. However,
@@ -72,3 +72,7 @@ I watched a brilliant series of lectures on Youtube called solve for happy and h
 These are the things I have been up to and will be working on for the next while. I hope you will find the inspiration to do likewise. Why not start a new hobby or read that book you’ve always wanted to read or run your first 5km or teach yourself something you’ve always been curious about.  
 
 In solve for happy, Mo uses the metaphor of a smartphone to describe modern life. At first, the battery on your smartphone is fantastic but then you download useless apps that begin to deteriorate your battery. Use this period to freshen up your apps, start deleting the ones that are causing you distress, download new ones that you’ve always wanted to and this will begin to replenish your battery life and you will come out of this stronger than ever!
+
+Slán go fóill,
+
+Gavin

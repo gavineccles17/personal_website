@@ -15,6 +15,8 @@ description: >-
   you can use the time to your advantage...
 og_image: /assets/images/whatsapp-image-2020-05-03-at-10.05.16.jpeg
 ---
+{% include figure caption="Stay positive" image_path="whatsapp-image-2020-05-03-at-10.05.16.jpeg" alt="Stay positive" %}
+
 The corona virus pandemic has been a complete shock to the system. A lot of things that we once took for granted are no longer at our disposal like visiting grandparents, doing grocery shopping, commuting to work, watching sports on tv and socialising with friends. What started as a distant flu has overwhelmed and dramatically changed our day to day lives. I am writing this on the 3rd of May, 5 months since the virus appeared in Wuhan and 37 days since Leo Varadkar announced a shutdown in Ireland. At the beginning it seemed like everyone was relieved to have a siesta from commuting to the office but that feeling of content quickly vanished. Ireland has suffered hundreds of deaths, a troubled economy and a bored/frustrated nation. 
 
 This is a difficult time for everyone especially those who have lost love ones but I encourage you to make the most of the extra time you have. The government released the long-term plans to return to a normal society and it seems like summer 2020 will be like none before. So how can you make the most of your time while locked away from friends, sports teams, colleagues and family? It requires a change in mindset to challenge yourself to do new things and use this time wisely.

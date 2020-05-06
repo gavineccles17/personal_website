@@ -33,7 +33,7 @@ I was useless in the kitchen and still am. Having the ability to cook is so esse
 
 ## Web development
 
-I always wanted to create a website so used this opportunity to make this site...read more on my blog \[here]. Next, I’d like to learn more by going through tutorials online and become confident to make a website for someone. 
+I always wanted to create a website so used this opportunity to make this site...read more on my blog [here]({{ site.baseurl }}/_posts/2020-04-25-how-i-created-this-website-with-jekyll.markdown). Next, I’d like to learn more by going through tutorials online and become confident to make a website for someone. 
 
 ## Photography
 

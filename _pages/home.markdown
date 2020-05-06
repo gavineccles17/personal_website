@@ -29,7 +29,7 @@ feature_collections:
 - image_path: "/assets/images/services.jpg"
   alt: services pic
   title: Services
-  excerpt: Ever wanted a neat personal website? I can help you make that possible. 
+  excerpt: Regarding Photography and web development services
   url: "/services/"
   btn_label: More Info
   btn_class: btn--primary
